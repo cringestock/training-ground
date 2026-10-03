@@ -1,0 +1,79 @@
+.operations-container {
+    display: none;
+}
+
+.operations-container.table--active {
+    display: block;
+}
+
+/* .operations {} */
+.operation {
+    padding: 1rem;
+    background-color: var(--operation-bgcolor);
+    border-radius: 1rem;
+    margin: 1rem 0 1rem 0;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    transition: 0.3s;
+}
+
+.operation:hover {
+    background-color: var(--operation-hover-bgcolor);
+}
+
+.row {
+    display: flex;
+}
+
+.row.space {
+    justify-content: space-between;
+}
+
+.operation-id, .operation-date, .operation-time {
+    color: #6b6b6b;
+}
+
+/* .operation-amount {
+    font-weight: 500;
+} */
+
+.operation-description {
+    box-sizing: border-box;
+}
+
+.operation-amount {
+    color: #d40000;
+}
+
+.tags-container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+    border-radius: 999rem;
+    font-size: 0.8rem;
+}
+
+.tag-icon {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.tag-name {
+    margin-left: 0.6rem;
+    color: white;
+}
+
+.tag.tag-purple {
+    background-color: #fc96ff;
+}
+
+.tag.empty-tag {
+    background-color: #454545;
+}

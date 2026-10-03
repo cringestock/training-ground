@@ -1,0 +1,84 @@
+.metrics-block {
+    margin: 0.5rem 0 0.5rem;
+}
+
+/* METRICS */
+
+.metrics {
+    padding: 3rem 0 3rem 0;
+}
+
+.metrics_title {
+    text-align: center;
+}
+
+.metrics_total {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title-block.title-block__metrics {
+    background-color: var(--accordeon__head-bgcolor);
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .title-block.title-block__metrics:hover {
+        background-color: var(--accordeon__head-bgcolor--hover);
+    }
+
+            .title-block.title-block__metrics i {
+                font-size: 13px;
+            }
+        
+            .title-block.title-block__metrics span {
+                margin-left: 0.3rem;
+            }
+
+        .accordeon__controller {
+            cursor: pointer;
+        }
+
+    .accordeon {
+        display: none;
+        background-color: var(--accordeon__content-bacground-color);
+        padding: 1rem;
+    }
+
+    .accordeon.accordeon-active {
+        display: block;
+    }
+
+/* -------------------------------- */
+
+.metrics-block {
+    display: flex;
+    justify-content: center;
+}
+
+.m-block {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    background-color: var(--metrics-bgcolor);
+    border-radius: 12px;
+    color: var(--metrics-color);
+}
+
+.m-icon {
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 12px;
+}
+
+.m-block i {
+    font-size: 20px;
+    color: white;
+}

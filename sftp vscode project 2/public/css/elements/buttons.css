@@ -1,0 +1,54 @@
+.navbar-button {
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
+}
+
+    .navbar-button i {
+        font-size: 13px;
+        color: #909090;
+    }
+
+    .navbar-button span {
+        margin-left: 0.3rem;
+    }
+
+    
+
+.multibutton {
+    display: flex;
+    background-color: #1b1b1b;
+    border-radius: 999rem;
+}
+
+    .button {
+        margin: 0 0.5rem 0 0.5rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+
+        .button.btn-1 {
+            background-color: #131313;
+            border-radius: 999rem;
+        }
+
+            .button.btn-1 span {
+                margin-left: 0.5rem;
+            }
+
+        .button.btn-2 {
+            border-radius: 999rem;
+        }
+
+
+        .button.button-add {
+            background-color: #2ec670;
+            border-radius: 999rem;
+        }
+
+            .button-add i {
+                margin-left: 0.5rem;
+            }
+            

@@ -1,0 +1,43 @@
+.empty-block {
+    color: #8e8e8e;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+    .empty-block--childs-wrapper {
+        border: dashed 3px #8e8e8e;
+        background-color: #292929;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: 0.3s;
+    }
+
+    .empty-block--childs-container {
+        padding: 1rem;
+    }
+
+        .empty-block--childs-container div:first-child {
+            font-size: 24px;
+        }
+
+        .empty-block--childs-container div {
+            text-align: center;
+            padding: 0.3rem;
+        }
+
+.empty-block:hover {
+    color: #adadad;
+}
+
+    .empty-block--childs-wrapper:hover {
+        border: dashed 3px #adadad;
+        background-color: #323232;
+    }
+
+.hidden {
+    display: none;
+}

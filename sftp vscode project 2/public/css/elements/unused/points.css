@@ -1,0 +1,15 @@
+.points-block {
+    background-color: var(--points-block-bgcolor);
+    border-radius: 1rem;
+    margin: 1rem 0 1rem 0;
+    box-sizing: border-box;
+}
+
+.points-block__title, .points-block__body {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.points-block__title {
+    background-color: var(--points-block__title-bgcolor);
+    border-radius: 1rem 1rem 0 0;
+}

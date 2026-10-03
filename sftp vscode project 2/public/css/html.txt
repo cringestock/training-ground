@@ -1,0 +1,83 @@
+Category form:
+
+	<div class="modal-container" id="modal-container-2">
+            <div class="modal" id="modal-2">
+                <div class="title-block modal-title">
+                    <div>Добавить категорию</div>
+                    <div id="modal-clsbtn-2">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+                <div class="modal-content">
+                    <div class="form-container">
+                        <form name="add-category-form" action="#">
+                            <div class="fields-row">
+                                <div class="add-field-container" id="category-name">
+                                    <label for="amount">Категория</label>
+                                    <input type="text" name="category-name" placeholder="Категория">
+                                </div>
+                            </div>
+                            <div class="fields-row">
+                                <div class="add-button-container">
+                                    <input class="add-button" type="submit" value="Добавить">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+Add transaction form:
+
+                    <div class="modal" style="display: none;">
+                        <div class="title-block modal-title">
+                            Добавить операцию
+                        </div>
+                        <div class="modal-content">
+                            <div class="add-form-container">
+                                <form name="add-form">
+                                    <div class="add-fields-row">
+                                        <div class="add-field-container" id="date">
+                                            <label for="amount">Сумма</label>
+                                            <input type="text" name="amount" placeholder="Сумма">
+                                        </div>  
+                                        <div class="add-field-container" id="date">
+                                            <label for="date">Дата</label>
+                                            <input type="text" name="date" placeholder="Год-месяц-день">
+                                        </div>
+                                        <div class="add-field-container" id="type">
+                                            <select name="types">
+                                                <option value="income">Доход</option>
+                                                <option value="expense">Расход</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="add-fields-row">
+                                        <div class="add-field-container">
+                                            <label for="description">Описание</label>
+                                            <input type="text" name="description" placeholder="Комментарий"></textarea>
+                                        </div>
+                                        <div class="add-button-container">
+                                            <input class="add-button" type="submit" value="Добавить">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+List switch block:
+
+        <div class="block">
+            <div class="switches-container">
+                <div class="list-switch-button list-switch-button--active">Январь 2026</div>
+                <div class="list-switch-button">Декабрь 2025</div>
+                <div class="list-switch-button list-empty">Ноябрь 2025</div>
+        	<div class="list-switch-button list-empty">Октябрь 2025</div>
+            </div>
+        </div>

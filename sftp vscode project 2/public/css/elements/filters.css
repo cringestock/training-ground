@@ -1,0 +1,50 @@
+.output-settings-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.output-settings {
+    background-color: var(--output-settings-bgcolor);
+    border-radius: 999px;
+    /* padding: 0.5rem 0.8rem 0.5rem 0.8rem; */
+    box-sizing: border-box;
+    box-shadow: var(--output-settings-box-shadow);
+    display: flex;
+    color: var(--output-settings-color);
+}
+
+.output-settings.inactive {
+    background-color: #e4e4e4;
+    border-radius: 999px;
+    /* padding: 0.5rem 0.8rem 0.5rem 0.8rem; */
+    box-sizing: border-box;
+    box-shadow: var(--output-settings-box-shadow);
+    display: flex;
+    color: #aaaaaa;
+}
+
+.output-settings.inactive .sort-button:hover {
+    color: #aaaaaa;
+}
+
+.sort-button {
+    user-select: none;
+    border-radius: 999px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sort-button:hover {
+    color: var(--sort-button-hover-color);
+}
+
+    .sort-button i {
+        font-size: 13px;
+    }
+
+    .sort-button span {
+        margin-left: 0.3rem;
+    }

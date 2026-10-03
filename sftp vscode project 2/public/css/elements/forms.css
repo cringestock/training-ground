@@ -1,0 +1,138 @@
+.form-container {
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+        .fields-row {
+            display: flex;
+            margin: 0.3rem;
+        }
+
+            .field-container {
+                width: 100%;
+                margin: 0.3rem;
+            }
+
+                .field-container label {
+                    display: block;
+                }
+
+                .field-container input, textarea {
+                    width: inherit;
+                    padding: 0.8rem;
+                    margin-top: 0.3rem;
+                    box-sizing: border-box;
+                    border-radius: 999rem;
+                    background-color: var(--form__field-border);
+                    border: var(--form__field-border);
+                    color: var(--form__field-color);
+                    transition: 0.3s;
+                }
+
+                .field-container input:hover, textarea:hover {
+                    border: solid 2px #2194c2;
+                }
+
+                .field-container select {
+                    width: 100%;
+                    padding: 0.8rem;
+                    margin-top: 0.3rem;
+                    border-radius: 999rem;
+                    background-color: var(--form__field-border);
+                    border: var(--form__field-border);
+                    color: var(--form__field-color);
+                }
+
+                .field-container option {
+                    background-color: rgba(0,0,0, 0);
+                }
+
+        .form-send-button-container {
+            margin: 0.3rem;
+            display: flex;
+        }
+
+            .form-send-button {
+                box-sizing: border-box;
+                padding: 0.5rem;
+                border: none;
+                border-radius: 999rem;
+                background-color: #2ec670;
+                color: white;
+                transition: 0.3s;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .form-send-button:hover {
+                background-color: #239956;
+            }
+
+            .form-send-button.delete-transaction-button {
+                background-color: #ff2929;
+            }
+            .form-send-button.delete-transaction-button:hover {
+                background-color: #d50000;
+            }
+
+
+
+
+
+
+
+
+
+/* EDIT FORM */
+
+.edit-form {
+    background-color: var(--modal-bgcolor);
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+.edit-form__fields-row {
+    display: flex;
+}
+
+.edit-field {
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.edit-field.autowidth {
+    width: auto;
+}
+
+.edit-field label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.edit-field input {
+    width: inherit;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    background-color: var(--form__field-bgcolor);
+    border: var(--form__field-border);
+    color: var(--form__field-color);
+}
+
+.edit-field select {
+    padding: 0.5rem;
+    background-color: var(--form__field-bgcolor);
+    border: var(--form__field-border);
+    color: var(--form__field-color);
+}
+
+.edit-form__save-button-container {
+    margin: 0.5rem;
+}
+
+.edit-form__save-button {
+    padding: 0.5rem;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
